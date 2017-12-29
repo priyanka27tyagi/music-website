@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.footer1{
+    background-color:black;
+/*    background:  linear-gradient(#000000,#434343);*/
+   height:134px;
+        margin-top: 23px
+    
+}
+.about{
+/*    background-color: aqua;*/
+    
+    width: 20%;
+    float: left;
+    
+}
+.loop{
+/*    background-color:orange;*/
+   width: 20%;
+    float: right;
+    right: 18px;
+    margin-left: -8px;
+    position: relative;
+    right: 73px;
+    
+    
+    
+}
+
+.copy {
+    width: 20%;
+/*    background-color: blueviolet;*/
+    float: left;
+    position: relative;
+    left: 20%;
+    top: 83px;
+}
+.copy p{
+     font-family:serif;
+    font-size: 17px;
+     display: block;
+    color: white;
+    text-align: center;
+   
+}
+.about ul,{
+   
+    list-style-type: none;
+}
+.about li{
+     
+   font-family:serif;
+    font-size: 17px;
+     display: block;
+
+}
+.about li a {
+     display: block;
+    text-decoration: none;
+    margin-left: 56%;
+    color:white;
+    margin-top: -3px;
+}
+.about img{
+        height: 71px;
+    width: 135px;
+/*    background-color: blueviolet;*/
+    
+    margin-left: 45%;
+   
+    padding-top: -13px;
+    position: relative;
+     top: -7px;
+}
+.loop li{
+    display:inline-block;
+    text-decoration: none;
+    
+   
+}
+.loop ul{
+   
+    list-style-type: none;
+    word-spacing: 33px;
+       margin-left: 31px;
+}
+.loop p{
+    color:white;
+   font-family: serif;
+    font-size: 17px;
+     display: block;
+        margin-left: 34%;
+}
+
+
+
+.fa-stack {
+    color: white;
+}
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+    color: blue;
+}
+
+.fa-youtube-play:before {
+    content: "\f16a";
+    color: red;
+}

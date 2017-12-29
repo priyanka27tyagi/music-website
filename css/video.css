@@ -1,0 +1,91 @@
+body{
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+  background-image: url(IMAGES/ezgif-1-90abc6db42.gif) ;
+   background-repeat:repeat; 
+}
+
+
+/*
+.image_s{
+position: relative;
+    margin-top: 120px;
+    left: 10%;
+    height: 300px;
+    width: 300px;
+    background-color: cadetblue;
+    float: left;
+    border: 5px solid #DAA520;
+}
+*/
+/*
+.play{
+   
+        margin-top: 1px;
+    margin-left: -5px;
+    width: 100%;
+    height: 32px;
+    border: 5px solid #DAA520;
+}
+*/
+
+video{
+         width: 70%;
+    height: 400px;
+    position: relative;
+    background-color: black;
+    left: 17%;
+    top: 20px;
+    background-image: url(IMAGES/beyonce3.jpg) ;
+    background-repeat: no-repeat;
+    background-position:top;
+   
+}
+
+
+
+
+.allsongs{
+    position: relative;
+    height: auto;
+    width: 300px;
+    background-color: black;
+    left: 40%;
+   bottom:22px;
+    margin-top: 60px;
+    float: left;
+    border: 4px solid white;
+    
+}
+.allsongs a{
+    padding: 0px 0px 6px 40px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+ .heading{
+/*    height: 50px;*/
+    width: 300px;
+/*    background-color: white;*/
+    position: relative;
+    left: 40%;
+}
+
+p{
+    display: inline-block;
+   text-align: center;
+    margin-left: 20%;
+     font-family: serif;
+    font-size: 28px;
+    color: white;
+     font-weight: 700;
+    word-spacing: 12px;
+}
+
+
+
+.allsongs img{
+    margin-top: 12px;
+}
