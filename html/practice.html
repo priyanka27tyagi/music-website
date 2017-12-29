@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>practice</title>
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<link rel="stylesheet" href="practice.css">
+     <link rel="stylesheet" href="circle.css">
+     <link rel="stylesheet" href="foot.css">
+<link rel="stylesheet" href="fontawesome/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="wc3.css">
+
+<!--    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">-->
+    
+     
+  
+</head>
+<body>
+  <div id="container" >
+    <div class="header">
+        <div class="clearfix">
+        <div class="logo">
+            <img src="../images/029fd9671deaf58f37e513edd8f1edfb.jpg" alt="logo">
+        </div>
+        <div class="nav_bar">
+             <ul>
+                 
+                 
+                 
+                 <li class="dropdown">
+                     <a href="#" class="dropbtn">MUSIC</a>
+                        <div class="dropcontent">
+                            
+                            <a href="#instrument" >Instruments</a>
+                            <a href="#circle" >Songs</a>
+                            <a href="#v_video" >Videos</a>
+                            
+                          
+                     </div>
+                 
+                 
+                 </li>
+                 
+                 
+                 
+                 
+                 <li><a href="practice.html">#BEYGOOD</a></li>
+                 <li><a href="#">VAULT</a></li>
+<!--                 <li><a href="#">SHOP</a></li>-->
+            
+            
+            
+            </ul>
+        
+        </div>
+<!--
+            <div class="search">
+           
+    <input type="text" class="form-control" placeholder="Search">
+ 
+  <button type="submit" class="btn btn-default">GO</button>
+            </div>
+-->
+
+            </div>
+      </div>
+  <div class="banner">
+      <div class="clearfix">
+          <div class="video1">
+     
+          <video width="100%" height="280" poster="../images/029fd9671deaf58f37e513edd8f1edfb.jpg" muted autoplay loop  class="v1">
+  <source src="IMAGES/2CELLOS%20-%20May%20It%20Be%20-%20The%20Lord%20of%20the%20Rings%20%5BOFFICIAL%20VIDEO%5D%20(online-video-cutter.com).mp4" type="video/mp4">
+ 
+  
+</video>
+
+             <div class="v2">
+
+                 <img src="IMAGES/4b1cb6f1-5a02-4267-b3af-51f42616cf62">
+             </div>
+              
+
+          
+      </div>  
+         
+         
+         <div class="video2">
+     
+          <video width="100%" height="280" poster="../images/029fd9671deaf58f37e513edd8f1edfb.jpg" muted autoplay loop class="v3">
+  <source src="IMAGES/video2.mp4" type="video/mp4">
+ 
+  
+</video>
+
+             <div class="v4">
+
+                 <img src="IMAGES/LOGO1.png">
+             </div>
+              
+
+          
+      </div>
+          
+          
+      </div>
+      
+      
+      
+      
+  </div>
+<!--  instruments-->
+   
+<!--
+   <div class="instrument">
+
+       <div class="description1">
+           <img src="IMAGES/ab45bb4451536652faca51ae4f42d5dd.gif">
+       </div>
+   </div>
+-->
+   <div id="instrument">
+     <div class="group1">
+         <div class="div1">
+           
+             
+            <div class="dc1">
+                 
+                <img src="IMAGES/flute.jpg" onclick="pauseVid()" height="300px" width="300px">
+                
+            </div> 
+            <div class="b1">
+               <img src="IMAGES/gree5.jpg"  height="65px" width="65px" onclick="playVid()" type="button">
+           </div>
+           <div class="b2 " >
+               <img src="IMAGES/images.png"  onclick="pauseVid()" type="button">
+                
+      </div>
+            
+               <audio id="myVideo" >
+                   <source src="other/flutechand_asy3SSWB.m4r" type="audio/mp3">
+               </audio>
+               <script> 
+var vid = document.getElementById("myVideo"); 
+
+function playVid() { 
+    vid.play(); 
+} 
+
+function pauseVid() { 
+    vid.pause(); 
+} 
+  
+    
+</script> 
+         </div>
+         <div class="div2">
+            <div class="dc2">
+                <img src="IMAGES/gree23.jpg" height="300px" width="300px">
+            </div> 
+            <div class="b3">
+               <img src="IMAGES/gree8.jpg"   onclick="playVid2()" type="button">
+           </div>
+           <div class="b4 " >
+               <img src="IMAGES/images.png"  onclick="pauseVid2()" type="button">
+                
+      </div> 
+        <audio id="myVideo2" >
+                   <source src="other/Tango.mp3" type="audio/mp3">
+               </audio>
+               <script> 
+var vid2 = document.getElementById("myVideo2"); 
+
+function playVid2() { 
+    vid2.play(); 
+} 
+
+function pauseVid2() { 
+    vid2.pause(); 
+} 
+  
+    
+</script> 
+         </div>
+         
+               
+
+     </div>
+     
+     <div class="group2">
+         <div class="div3">
+            <div class="dc3">
+             <img src="IMAGES/harmonica.jpg" height="300px" width="300px">
+            </div> 
+            <div class="b5">
+               <img src="IMAGES/gree11.jpg"   onclick="playVid3()" type="button">
+           </div>
+           <div class="b6 " >
+               <img src="IMAGES/images.png"  onclick="pauseVid3()" type="button">
+                
+      </div> 
+        <audio id="myVideo3" >
+                   <source src="songs/bibi.mp3" type="audio/mp3">
+               </audio>
+               <script> 
+var vid3 = document.getElementById("myVideo3"); 
+
+function playVid3() { 
+    vid3.play(); 
+} 
+
+function pauseVid3() { 
+    vid3.pause(); 
+} 
+  
+    
+</script> 
+         </div>
+         <div class="div4">
+            <div class="dc4">
+                <img src="IMAGES/guiter.jpg" height="300px" width="300px">
+            </div> 
+            <div class="b7">
+               <img src="IMAGES/gree1.jpg"   onclick="playVid4()" type="button">
+           </div>
+           <div class="b8 " >
+               <img src="IMAGES/images.png"  onclick="pauseVid4()" type="button">
+                
+      </div>
+        <audio id="myVideo4" >
+                   <source src="songs/bibi.mp3" type="audio/mp3">
+               </audio>
+               <script> 
+var vid4 = document.getElementById("myVideo4"); 
+
+function playVid4() { 
+    vid4.play(); 
+} 
+
+function pauseVid4() { 
+    vid4.pause(); 
+} 
+  
+    
+</script>   
+         </div>
+     </div>
+     <div class="group3">
+         <div class="div5">
+            <div class="dc5">
+             <img src="IMAGES/clairnet.jpg" height="300px" width="300px">
+            </div> 
+            <div class="b9">
+               <img src="IMAGES/gree3.jpg"   onclick="playVid5()" type="button">
+           </div>
+           <div class="b10 " >
+               <img src="IMAGES/images.png"  onclick="pauseVid5()" type="button">
+                
+      </div> 
+        <audio id="myVideo5" >
+                   <source src="songs/bibi.mp3" type="audio/mp3">
+               </audio>
+               <script> 
+var vid5 = document.getElementById("myVideo5"); 
+
+function playVid5() { 
+    vid5.play(); 
+} 
+
+function pauseVid5() { 
+    vid5.pause(); 
+} 
+  
+    
+</script>   
+         </div>
+         <div class="div6">
+            <div class="dc6">
+                <img src="IMAGES/drum.jpg" height="300px" width="300px">
+            </div>  
+            <div class="b11">
+               <img src="IMAGES/gree9.jpg"   onclick="playVid6()" type="button">
+           </div>
+           <div class="b12 " >
+               <img src="IMAGES/images.png"  onclick="pauseVid6()" type="button">
+                
+      </div> 
+        <audio id="myVideo6" >
+                   <source src="songs/bibi.mp3" type="audio/mp3">
+               </audio>
+               <script> 
+var vid6 = document.getElementById("myVideo6"); 
+
+function playVid6() { 
+    vid6.play(); 
+} 
+
+function pauseVid6() { 
+    vid6.pause(); 
+} 
+  
+    
+</script>   
+         </div>
+     </div>
+     <div class="group4">
+         <div class="div7">
+            <div class="dc7">
+             <img src="IMAGES/french.jpg" height="300px" width="300px">
+            </div> 
+            <div class="b13">
+               <img src="IMAGES/gree7.jpg"   onclick="playVid7()" type="button">
+           </div>
+           <div class="b14 " >
+               <img src="IMAGES/images.png"  onclick="pauseVid7()" type="button">
+                
+      </div>
+        <audio id="myVideo7" >
+                   <source src="songs/bibi.mp3" type="audio/mp3">
+               </audio>
+               <script> 
+var vid7 = document.getElementById("myVideo7"); 
+
+function playVid7() { 
+    vid7.play(); 
+} 
+
+function pauseVid7() { 
+    vid7.pause(); 
+} 
+  
+    
+</script>    
+         </div>
+         <div class="div8">
+            <div class="dc8">
+                <img src="IMAGES/piano.jpg" height="300px" width="300px">
+            </div> 
+            <div class="b15">
+               <img src="IMAGES/gree10.jpg"   onclick="playVid8()" type="button">
+           </div>
+           <div class="b16 " >
+               <img src="IMAGES/images.png"  onclick="pauseVid8()" type="button">
+                
+      </div> 
+        <audio id="myVideo8" >
+                   <source src="songs/djsnake.mp3" type="audio/mp3">
+               </audio>
+               <script> 
+var vid8 = document.getElementById("myVideo8"); 
+
+function playVid8() { 
+    vid8.play(); 
+} 
+
+function pauseVid8() { 
+    vid8.pause(); 
+} 
+  
+    
+</script>    
+         </div>
+     </div>
+ </div> 
+<!--   music-->
+   <div class="musicspace">
+  
+      
+    <div class="music1">
+       <h4>"MUSIC"<br></h4>
+
+        <div class="mm1">
+            <img src="IMAGES/music12.png">
+            
+        </div>
+    </div> 
+      
+      <div class="music2">
+        <img src="IMAGES/BeFunky%20Collageginhk.jpg">
+        
+    </div>  
+   </div>    
+    
+<!--   songs-->
+  
+ <div id="circle">
+  <div class="c1">
+      <a href="songs.html"> <img src="IMAGES/kettyperry1.jpg" width="300px" height="300px" alt="singer">  </a>
+  </div>  
+   <div class="c2">
+     <img src="IMAGES/madonna.jpg" width="300px" height="300px" alt="singer">   
+  </div>
+   <div class="c3">
+     <img src="IMAGES/pink.jpg" width="300px" height="300px" alt="singer">   
+  </div> 
+    
+</div>
+   
+<!--   main videos-->
+    <div id="v_video">
+        <div class="clearfix">
+      <div class="d1">
+      <a href="video.html">
+          <img src="../images/beyonce.jpg" alt="beyonce" class="image"></a>
+        <div class="middle">
+            <div class="play">
+                <a href="video.html">  <img src="IMAGES/play-wht-icon.png"></a>
+            </div>
+            
+        </div>
+        </div>
+        
+      <div class="d2">
+             <div class="img1">
+                <img src="../images/ar%20.jpg" alt="beyonce" class="image1">
+             <div class="middle1">
+            <div class="play1">
+                <img src="IMAGES/play-wht-icon.png">
+            </div>
+           </div>  
+             </div>
+           
+       
+       
+       
+       
+        <div class="img2">
+             <img src="../images/adele2.jpg" class="image2">
+           <div class="middle2">
+            <div class="play2">
+                <img src="IMAGES/play-wht-icon.png">
+            </div>
+        </div>
+        </div>
+       
+        </div>
+        
+        
+        
+        
+        <div class="d3">
+      
+        <img src="IMAGES/amywine.jpg" alt="beyonce" class="image3">
+        <div class="middle3">
+            <div class="play3">
+                <img src="IMAGES/play-wht-icon.png">
+            </div>
+            
+        </div>
+        </div>
+        
+        
+        
+
+       
+        <div class="d4">
+             <div class="img3">
+                <img src="IMAGES/headline.jpeg" alt="beyonce" class="image4">
+             <div class="middle4">
+            <div class="play4">
+                <img src="IMAGES/play-wht-icon.png">
+            </div>
+           </div>  
+             </div>
+           
+       
+       
+       
+       
+        <div class="img4">
+             <img src="IMAGES/mj.jpg" class="image5">
+           <div class="middle5">
+            <div class="play5">
+                <img src="IMAGES/play-wht-icon.png">
+            </div>
+        </div>
+        </div>
+       
+        </div> 
+      </div>
+      </div>
+      
+    </div> 
+ <!--<div class="footer1">
+     <div class="about">
+       <ul>
+        <li>
+            <img src="IMAGES/029fd9671deaf58f37e513edd8f1edfb.jpg">
+        </li> 
+        <li>
+            <a href="#">ABOUT US</a>
+        </li> 
+         </ul>
+     </div>
+     <div class="copy">
+         <p>@-BrainMentors</p>
+     </div>
+      <div class="loop">
+        <p>STAY IN LOOP</p> 
+        <ul>
+        
+<a href="#">
+<span class="fa-stack fa-2x">
+  <i class="fa fa-circle fa-stack-2x icon-background"></i>
+  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+</span>
+            </a>
+            <a href="#">
+         <span class="fa-stack fa-2x">
+  <i class="fa fa-circle fa-stack-2x icon-background"></i>
+  <i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i>
+</span>
+            </a>
+         
+          </ul>
+     </div>
+ </div>          
+   --> 
+</body>
+</html>
